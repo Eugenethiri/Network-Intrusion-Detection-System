@@ -15,5 +15,6 @@ An Optimized Network Intrusion Detection System (NIDS) made specifically for sma
 - Libraries : sqlite3(2.4.5), Tkinter, scapy
 
 # Installation 
-- Import required libaries 
+- Import required libaries
+- install pushover app and create account
 - clone repository or copy script and run it
