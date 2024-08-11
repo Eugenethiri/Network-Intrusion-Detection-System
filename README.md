@@ -16,4 +16,4 @@ An Optimized Network Intrusion Detection System (NIDS) made specifically for sma
 
 # Installation 
 - Import required libaries 
-- Run python script
+- clone repository or copy script and run it
