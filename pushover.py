@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-
+'''    
+this shows the pushover setup for receiving notifications
+requirements are #API KEY TOKEN and  #USER KEY TOKEN. Create keys on the pushover app and make changes on the script
+'''
 import http.client
 import urllib
 
@@ -25,6 +28,8 @@ send_pushover_notification("your_app_token", "your_user_key", "Test notification
 
 
 """    
+OG script found at the pushover app, changed to my preferences to fit my requirements for the IDS
+
 import httplib, urllib
 conn = httplib.HTTPSConnection("api.pushover.net:443")
 conn.request("POST", "/1/messages.json",
