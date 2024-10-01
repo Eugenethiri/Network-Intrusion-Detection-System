@@ -2,7 +2,10 @@
 
 from scapy.all import IP, TCP, UDP, ICMP, send
 
-"""id,src_ip,dst_ip,protocol,src_port,dst_port,length,flags,ttl,anomaly_type
+"""
+This part deals with testing of the ids, below show the contents for spoofing or generating the anomaly packets.
+
+id,src_ip,dst_ip,protocol,src_port,dst_port,length,flags,ttl,anomaly_type
 1,192.168.1.10,192.168.1.20,TCP,1234,80,1500,SYN,64,No Anomaly
 2,192.168.1.15,192.168.1.25,UDP,4444,1337,5000,0,255,Unusual Port Number
 3,10.0.0.1,192.168.1.30,ICMP,0,0,56,0,1,Unusual TTL
